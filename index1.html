@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Talita Lopes" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <title>Desafio LionX</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <header class="menu">
+        <div class="header">
+          <img src="img/icons8-calendar-64.png" alt="" />
+          <h1 id="title">Today</h1>
+        </div>
+      </header>
+      <div class="elipsis">
+        <button id="more" onclick="addEventListener">
+          <img src="img/icons8-mais-30.png" alt="" />
+        </button>
+
+        <div class="opcoes" id="opcoes">
+          <button id="completo" onclick="check()">Completed</button>
+          <button id="incompleto">In progress</button>
+          <button id="deletado">Removed</button>
+        </div>
+      </div>
+
+      <main class="lista-de-tarefas">
+        <div class="lista_itens" id="listaItens">
+        
+        </div>
+      </main>
+
+      <div id="like_button_container"></div>
+
+      <div class="novo_item" id="novoItem">
+        <button id="addNew">
+          <img src="img/icons8-add-64.png" alt="" />
+        </button>
+        <input type="text" placeholder="Create New Item" id="new"/>
+      </div>
+    </section>
+
+  <script src="app.js"></script>
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+ 
+  </body>
+</html>

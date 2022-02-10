@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+section {
+  width: 800px;
+  height: 100vh;
+  margin: auto;
+  padding: 50px 0;
+}
+
+/* CABEÇALHO */
+
+.menu {
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+}
+
+.header img {
+  width: 30px;
+  height: 35px;
+  margin: auto 25px;
+}
+
+.header h1 {
+  font-size: 30px;
+  margin: auto 5px;
+}
+
+/* MENU */
+
+.elipsis {
+  width: 80px;
+  margin-left: 80%;
+  background-color: transparent;
+}
+
+.elipsis button {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  border: none;
+  width: 80px;
+}
+#more {
+  width: 30px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  margin-left: 49px;
+}
+#more img {
+  width: 20px;
+  display: center;
+}
+
+#more:hover{
+   box-shadow: 1px 1px 1px 0.8px rgb(110, 110, 110);
+}
+
+.opcoes {
+  display: none;
+  z-index: 9999;
+  position: absolute;
+}
+
+.opcoes button:hover{
+  box-shadow: 0.5px 1px 1px 0.8px rgb(110, 110, 110);
+}
+
+/* LISTA */
+.lista_itens{
+  width: 90%;
+}
+
+.tarefas {
+  display: flex;
+  margin: 15px 2px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tarefas:hover{
+  box-shadow: 2px 1px 2px 1px rgb(219, 219, 219) ;
+}
+
+.tarefas input {
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+.tarefas input:checked + p {
+  text-decoration: line-through;
+}
+
+.tarefas p{
+  flex: 1;
+}
+
+.tarefas button {
+  background-color: transparent;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 30px;
+}
+
+.tarefas img {
+  width: 15px;
+  height: 13px;
+}
+
+/* NOVA LISTA */
+
+.novo_item {
+  margin: 0 35px;
+  display: flex;
+}
+
+.novo_item button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: 50px;
+  height: 40px;
+}
+
+.novo_item input {
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  margin: 0 10px;
+  cursor: text;
+}
+
+.novo_item img {
+  height: 25px;
+  width: 25px;
+}
