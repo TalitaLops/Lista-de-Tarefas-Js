@@ -7,9 +7,10 @@ Lista de tarefas feita utilizando JavaScript.
  <img align="center" alt="Lops-CSS" height="30" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">-
  <img align="center" alt="Lops-Js" height="30" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div> 
+
 ##
 <p align="center">
-  <img src="https://github.com/TalitaLops/Desafio/blob/main/lionX%20test/img/Capturar.PNG?raw=true"
+  <img src="https://github.com/TalitaLops/Lista-de-Tarefas-Js/blob/main/Capturar.PNG?raw=true"
 </p>
  
 https://todolistteste.netlify.app
