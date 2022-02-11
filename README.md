@@ -11,6 +11,8 @@ Lista de tarefas feita utilizando JavaScript.
 <p align="center">
   <img src="https://github.com/TalitaLops/Desafio/blob/main/lionX%20test/img/Capturar.PNG?raw=true"
 </p>
+ 
+https://todolistteste.netlify.app
 
 ## Funções
 `Criar novo item` : Digite o item na caixa de texto "Create new item" e pressione "Enter".
