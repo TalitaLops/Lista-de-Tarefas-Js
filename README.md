@@ -3,10 +3,10 @@ Lista de tarefas feita utilizando JavaScript.
 
 ## Tecnologias usadas :computer:
 <div style="display: inline_block">
- <img align="center" alt="Lops-Js" height="30" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> -
-  <img align="center" alt="Lops-Html" height="30" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html/html-plain.svg"> -
-  <img align="center" alt="Lops-Css" height="30" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css/css-plain.svg">
-
+ <img align="center" alt="Lops-HTML" height="30" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">-
+ <img align="center" alt="Lops-CSS" height="30" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">-
+ <img align="center" alt="Lops-Js" height="30" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+</div> 
 ##
 <p align="center">
   <img src="https://github.com/TalitaLops/Desafio/blob/main/lionX%20test/img/Capturar.PNG?raw=true"
